@@ -1,0 +1,83 @@
+body {
+  background-color: #a88314;
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+  flex-direction: column;
+  color: #564a3b;
+  gap: 5px;
+}
+
+body h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#pagebody {
+  background-color: #a8965f;
+  width: 80%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+nav {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navdiv {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid black;
+  background-color: #d62b22;
+  padding: 1px;
+}
+
+.navdiv a {
+  font-size: 21px;
+  color: #564a3b;
+}
+
+#curnavdiv {
+  background-color: #b129db;
+}
+
+.memberimg {
+  aspect-ratio: 1;
+  width: 50%;
+}
+
+
+#pagebody button {
+  color: #894c9b;
+  background-color: burlywood;
+}
+
+#articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.article-preview-div {
+  border: 3px solid grey;
+}
+
+.article-preview-button {
+  color: brown;
+}
+
+.article-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-picture {
+  aspect-ratio: 1;
+  width: 50%;
+}

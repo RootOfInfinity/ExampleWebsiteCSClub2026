@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Arby's Fan Network</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="articles.js"></script>
+
+</head>
+
+<body>
+  <h1>Arby's Fan Network</h1>
+  <marquee>Featured Limited Time Menu: Steak 'n Potato Bowl, Steak Nuggets, Steak 'n Mac Bowl, Shirley Temple, Spicy
+    Angus
+    Cheesesteak, Chicken Cheesesteak, etc.</marquee>
+  <nav>
+    <div class="navdiv"><a href="index.html">Home</a></div>
+    <div class="navdiv"><a href="about.html">About</a></div>
+    <div class="navdiv"><a href="members.html">Members</a></div>
+    <div class="navdiv" id="curnavdiv"><a href="articles.html">Articles</a></div>
+  </nav>
+  <div id="pagebody">
+    <button onclick="putArticlesOnId('articles')">Load Articles</button>
+    <div id="articles" onload="putArticlesOnId('articles')">
+    </div>
+  </div>
+</body>
+
+</html>
